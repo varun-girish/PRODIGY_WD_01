@@ -1,0 +1,147 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body {
+    display: flex;
+    background: #E8DFC4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navigation {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(204, 113, 92);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .icons{
+    padding-top: 10px;
+  }
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #304546;
+    transition: color 0.3s;
+  }
+  
+  .menu li a:hover {
+    color: #30cbff;
+  }
+
+.scrolled {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    height: 1500px; 
+    padding-top: 40px;
+  }
+  .home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#img-home{
+  border-radius: 20px;
+}
+.li-icon{
+  font-size: 30px;
+  color:#aaaaaa;
+}  
+.li-icon:hover{
+  color: black;
+}
+.gt-icon{
+  color:#aaaaaa;
+  font-size: 30px;
+}
+.gt-icon:hover{
+  color: black;
+}
+.about-text{
+  margin: 270px ;
+  width:50%;
+  /* display: flex; */
+   align-items: center; 
+   justify-content: center
+}
+.about-text p{
+   display: block; 
+   font-size: 20px; 
+   padding-left: 20px; 
+}
+.abou-img{
+  border: solid 3px #333;
+  /* padding-right: 70px; */
+  border-radius: 20px;
+  float: right;
+  width: 300px;
+}
+.cont-img{
+  padding-right: 125px;
+}
+.skills0{
+  padding-left: 175px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.skills1{
+  background-color: orange;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  width: 10rem;
+  text-align: center;
+  cursor: pointer;
+}
+.contact{
+  padding-top: 30px;
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* -moz-column-gap: 7rem; */
+      /* column-gap: 7rem; */
+  /* row-gap: 3rem; */
+  /* align-items: center; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* gap: 2rem; */
+}
+.cont-cont{
+  /* margin-block-end: 1rem; */
+  background-color: #D8CBFF;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  /* width: 10rem; */
+  padding-top: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.cont-list{
+  font-weight: 700;
+}
+.list01{
+
+  text-decoration: none;
+}
+.list01 ion{
+  font-size: 20px;
+}
